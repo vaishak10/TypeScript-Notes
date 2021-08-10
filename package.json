@@ -1,0 +1,26 @@
+{
+  "name": "typescript-notes",
+  "version": "1.0.0",
+  "description": "TypeScript notes Maintainer repo which will include basics to advanced concepts of typeScript along with some real world problems based on them.",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VaishakKS/TypeScript-Notes.git"
+  },
+  "author": "Vaishak K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VaishakKS/TypeScript-Notes/issues"
+  },
+  "homepage": "https://github.com/VaishakKS/TypeScript-Notes#readme"
+}
