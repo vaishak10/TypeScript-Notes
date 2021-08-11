@@ -13,3 +13,5 @@ With the case of typescript, If we decalre a variable with a particular type , l
 **Note**: Typescript is used only for development purpose , it cannot be used to render on screen like javascript.
 In the Html file, the script tag will contain the Javascript file. Typescript is a means to develop that javascript file.
 
+**Important**: It is string and number (etc.), NOT String, Number etc.
+
