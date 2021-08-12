@@ -27,3 +27,22 @@ let person3: object = {
     age:22
 };
 //console.log(person3.name); //error: Property 'name' does not exist on type 'object'.
+
+//setting object types for nested objects
+let person4: {
+    id: string;
+    price: number;
+    tags: string[];
+    details: {
+      title: string;
+      description: string;
+    }
+} = {
+    id: 'abc1',
+    price: 12.99,
+    tags: ['great-offer', 'hot-and-new'],
+    details: {
+      title: 'Red Carpet',
+      description: 'A great carpet - almost brand-new!'
+    }
+}
