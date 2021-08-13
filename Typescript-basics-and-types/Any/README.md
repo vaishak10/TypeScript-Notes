@@ -5,7 +5,7 @@ Typescript provides one more type called `any`. So what `any` means is that it c
 ```
 let x:any;
 ```
-From the snippet above, `x` can have any values be it a numerical values , a string, boolean or number arrays etc.
+From the snippet above, `x` can have any values be it numerical values , a string, boolean or number arrays etc.
 
 ```
 let x:any[];
