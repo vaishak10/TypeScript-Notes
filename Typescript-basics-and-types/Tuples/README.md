@@ -1,7 +1,7 @@
 # Tuples
 
-Unlike other programming languages the `tuple` type is not present in javascript. But typescript provides a `tuple` type.
-
+Unlike other programming languages the `tuple` type is not present in javascript. But typescript provides a `tuple` type.<br>
+Tuples in typescript are bascially fixed length arrays.<br>
 `[1,'admin']` is a `tuple` type in typescript. This does look like an array ,but differs from array in one way that it can contain only values of specific type in them. <br>
 
 Let's consider an example for better understanding.<br>
