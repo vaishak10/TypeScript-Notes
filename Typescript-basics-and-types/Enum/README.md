@@ -5,7 +5,7 @@ TypeScript provides both numeric and string-based enums i.e, numercial or string
 
 ## Types of Enums
 
-An enum can be defined using the `enum` keyword followed by a name for the enum. The enum name begine with a capital letter as it's a custom type. enum name is followed by `{}` inside which we specify the enums.
+An enum can be defined using the `enum` keyword followed by a name for the enum. The enum name begines with a capital letter as it's a custom type. enum name is followed by `{}` inside which we specify the enums.
 ```
 enum Role {ADMIN ,SUPER_ADMIN ,AUTHOR};
 ```
