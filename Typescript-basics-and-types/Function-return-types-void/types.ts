@@ -17,3 +17,12 @@ function add2(num1:number, num2:number):undefined{
     return;
 }
 console.log(add2(2,2)); 
+
+//use of function types in callbacks
+function add3(num1:number, num2:number, callback:(value)=>void){
+    let result = num1+num2;
+    callback(result);
+};
+add3(2,3,(res)=>{
+    console.log(res);
+});
