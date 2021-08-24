@@ -32,6 +32,10 @@ TypeScript notes Maintainer repo which will include basics to advanced concepts 
 ### Typescript Compiler 
  
  - For Compiling all the typescript files in a project or a folder we need to change the directory from the terminal where we run the project. Once directed to the    folder run the command `tsc init`. This will create a `tsconfig.json` file. Once it's created we can compile all the typescript files in a project or folder        using `tsc`. We can also do it with watch mode: `tsc --watch` or `tsc -w`.
+ 
+ - In order to exclude and include files from complilation we have two properties `exclude` and `includes` which needs to specified in the `tsconfig.json` file.<br>
+   ```"exclude":[file1.ts],"include":[file2.ts]```. <br>
+   Here, file1 will skip compilation whereas file2 will be complied to javascript. We can specify multiple files in       the same directory or other folders.
 
 **Note**: To know more about typescript ,please do follow the [typescript documentation](https://www.typescriptlang.org/)
 
