@@ -28,6 +28,10 @@ TypeScript notes Maintainer repo which will include basics to advanced concepts 
 
 - Once the above command is executed successfully a javascript files with the sample <file-name> will be generated. <br>
   But the difference between the files is that all the types set in typescript file will not be present in javvascript file.
+ 
+### Typescript Compiler 
+ 
+ - For Compiling all the typescript files in a project or a folder we need to change the directory from the terminal where we run the project. Once directed to the    folder run the command `tsc init`. This will create a `tsconfig.json` file. Once it's created we can compile all the typescript files in a project or folder        using `tsc`. We can also do it with watch mode: `tsc --watch` or `tsc -w`.
 
 **Note**: To know more about typescript ,please do follow the [typescript documentation](https://www.typescriptlang.org/)
 
