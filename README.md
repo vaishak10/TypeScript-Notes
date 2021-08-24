@@ -20,8 +20,11 @@ TypeScript notes Maintainer repo which will include basics to advanced concepts 
 
 - Once the above command is executed, Typescript compiler will be installed in your local machine. This compiler will be used to compile typescript code to javascript code.
 
-- To execute typescript files use `tsc` command followed by the typescript file.
+- To execute typescript files use `tsc` command followed by the typescript file.<br>
    Example: `tsc <file-name>.ts`
+   
+- Compiling typescript using `tsc` is time consuming as we will have to run that command everytime a change occurs. Instead use `--watch` or `-w` along with the       above command. Watch will make sure the file is compiled everytime a change occurs. To terminate watch mode press `ctrl+c`.<br>
+  Example: `tsc <file-name>.ts --watch` or `tsc <file-name>.ts -w`
 
 - Once the above command is executed successfully a javascript files with the sample <file-name> will be generated. <br>
   But the difference between the files is that all the types set in typescript file will not be present in javvascript file.
