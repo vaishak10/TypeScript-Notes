@@ -39,6 +39,7 @@ TypeScript notes Maintainer repo which will include basics to advanced concepts 
  
  - In `Compiler options`  there's some properties that will account for how the typescript files are compiled. Some of them are:
      1. `target`: This property specifies to what version of javascript the typescript files are complied to. The default target is `es5`.
+     2. `lib`: Typescript supports both front-end and backened operations. But not all the functionalities are supported by typescript in default. To specify these default libraries or modules list them in the `lib` array.
 
 **Note**: To know more about typescript ,please do follow the [typescript documentation](https://www.typescriptlang.org/)
 
