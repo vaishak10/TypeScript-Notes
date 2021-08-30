@@ -36,6 +36,9 @@ TypeScript notes Maintainer repo which will include basics to advanced concepts 
  - In order to exclude and include files from complilation we have two properties `exclude` and `includes` which needs to specified in the `tsconfig.json` file.<br>
    ```"exclude":[file1.ts],"include":[file2.ts]```. <br>
    Here, file1 will skip compilation whereas file2 will be complied to javascript. We can specify multiple files in       the same directory or other folders.
+ 
+ - In `Compiler options`  there's some properties that will account for how the typescript files are compiled. Some of them are:
+     1. `target`: This property specifies to what version of javascript the typescript files are complied to. The default target is `es5`.
 
 **Note**: To know more about typescript ,please do follow the [typescript documentation](https://www.typescriptlang.org/)
 
