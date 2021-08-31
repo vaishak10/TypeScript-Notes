@@ -42,6 +42,9 @@ TypeScript notes Maintainer repo which will include basics to advanced concepts 
      2. `lib`: Typescript supports both front-end and backened operations. But not all the functionalities are supported by typescript in default. To specify these default libraries or modules list them in the `lib` array.
      3. `checkJs` and `allowJs`: with `allowJs` typescript will compile jaavscript files and `checkJs` will throw errors, if present in javascript files.
      4. `sourceMap`: This provides a means through which typescript files are included in the filesystem for debugging purposes.
+     5. `outDir` and `rootDir`: `outDir` is used to indicate a folder where all the compiled javascript files should be placed. `rootDir` indicates the root path of the typescript files to be compiled.
+     6. `removeComments`: This property is enables true then the comments in .ts files will be removed in compiled javascript files.
+     7. `noEmit`: This property makes sure the typescript files are not complied to javascript files upon getting any errors.
 
 **Note**: To know more about typescript ,please do follow the [typescript documentation](https://www.typescriptlang.org/)
 
