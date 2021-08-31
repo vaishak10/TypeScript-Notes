@@ -46,6 +46,7 @@ TypeScript notes Maintainer repo which will include basics to advanced concepts 
      6. `removeComments`: This property is enables true then the comments in .ts files will be removed in compiled javascript files.
      7. `noEmit`: This property makes sure the typescript files are not complied to javascript files upon getting any errors.
      8. `noEmitOnError`: This property will make sure none of the .ts files are compiled even if a error is found in any of the files.
-
+     9. `strict`: makes sure the code quality is maintained and throws an error on any missed declaration etc.
+ 
 **Note**: To know more about typescript ,please do follow the [typescript documentation](https://www.typescriptlang.org/)
 
