@@ -30,7 +30,7 @@ const josh = new Person('Josh',25);
 
 From the above example, we can see that a person named `josh` has his name and age initialized using the class `Person`. As we know that objects are instances of class. Thus `josh` here is an object of class `Person`. 
 
-> Taking a moment for `constructor()` function. These are initializer functions of a class i.e., constructor functions are used to set the properties for a object right at the moment an object is created.
-
-Classes have functions attached to them and they look similar to normal functions. Difference here can be seen that we don't use the `function` keyword. Also they can be accessed by the instances of the class these functions are defined in.
+> Taking a moment for `constructor()` method. These are initializer functions of a class i.e., constructor methods are used to set the properties for a object right at the moment an object is created.
+>
+> Classes have methods attached to them and they look similar to normal functions. Difference here can be seen that we don't use the `function` keyword. Also they can be accessed by the instances of the class these function are defined in.
 
