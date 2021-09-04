@@ -50,3 +50,7 @@ class Person {
 }
 ```
 Here, the `age` property cannot be changed after a object has been instantiated.
+
+## protected modifiers
+
+If we want to use properties of base class in a child class, we can set the properties to `protected` in base class.
