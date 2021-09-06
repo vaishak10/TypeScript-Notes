@@ -51,7 +51,7 @@ TypeScript notes Maintainer repo which will include basics to advanced concepts 
  ### Modules 
  
  1. [Typescript basics and types](Typescript-basics-and-types)
- 2. [Classess and Interfaces](Classess-Interfaces)
+ 2. [Classes and Interfaces](Classes-Interfaces)
  
 **Note**: To know more about typescript ,please do follow the [typescript documentation](https://www.typescriptlang.org/)
 
