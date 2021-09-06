@@ -1,6 +1,6 @@
 # Extending Interfaces
 
-We can also implement inheritance between interfaces. But one key difference between inheritance in classess and interfaces is that a class can inherit only one base class , whereas a interface can inherit from more than one interface.
+We can also implement inheritance between interfaces. But one key difference between inheritance in classes and interfaces is that a class can inherit only one base class , whereas a interface can inherit from more than one interface.
 
 ```
 interface Details {

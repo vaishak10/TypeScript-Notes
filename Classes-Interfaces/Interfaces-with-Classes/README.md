@@ -1,4 +1,4 @@
-# Interfaces with Classess
+# Interfaces with Classes
 
 Interfaces are not only used to give a structure to an object but they are also used as a contract for creating classes. What this basically means is that, using interfaces we can specify what properties and methods a class should contain and when creating a class we should strictly adhere to this contract. A class can follow an interface using the keyword `implements`. 
 
@@ -27,4 +27,4 @@ From the above code block we see that, `Person` class implements the interface `
 
 > **Note**: 
 > 1. A class can implement more than one interface by placing a comma after an implementing interface name.
-> 2. Classess should strictly contain the properties and methods of the interface it implements ,but that does'nt let you from creating new properties and methods inside the class.
+> 2. Classes should strictly contain the properties and methods of the interface it implements ,but that does'nt let you from creating new properties and methods inside the class.

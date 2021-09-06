@@ -1,4 +1,4 @@
-# Creating Classess
+# Creating Classes
 
 As we know from the OOP conecpts in modern javascript that class is a blueprint from which objects are created. Objects on the other hand are just instances of a class.<br>
 
