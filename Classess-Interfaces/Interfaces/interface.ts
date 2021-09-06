@@ -4,16 +4,11 @@ interface Person {
     getDetails(): void;
 }
 
-class Person implements Details {
-    name: string;
-    age: number;
-
-    constructor(name: string, age:number) {
-        this.name = name;
-        this.age = age;
-    }
-
-    getDetails() {
+let user: Person;
+user = {
+    name: 'Josh',
+    age: 25,
+    getDetails(){
         console.log(`Name is ${this.name}, and age is ${this.age}`);
     }
 }
