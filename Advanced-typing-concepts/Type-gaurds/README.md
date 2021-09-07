@@ -1,6 +1,6 @@
 # Type Gaurds
 
-They are bascially statement blocks that check whether a type exists before using it in our code. It helps us to use the flexibility union types gives and make sure code runs properly at runtime. Type guards are implemented using `typeof` and `instanceof`.
+They are bascially statement blocks that check whether a type exists before using it in our code. It helps us to use the flexibility union types gives and make sure code runs properly at runtime. Type guards are implemented using `typeof` and `instanceof`(for classess).
 
 ```
 type Combinable = number | string;
