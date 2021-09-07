@@ -1,6 +1,6 @@
 # Intersection types
 
-Intersection in sets gives us the common data between 2 sets. Similar to that, typescript provides an intersection operator `&` which combines the common types between union types and clubs the types if we provides object types.
+Intersection in sets gives us the common data between 2 sets. Similar to that, typescript provides an intersection operator `&` which combines the common types between union types and clubs the types if we provide object types.
 
 **case 1**: Union types
 ```
