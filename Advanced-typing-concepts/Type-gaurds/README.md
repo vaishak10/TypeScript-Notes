@@ -12,4 +12,4 @@ function add(a: Combinable, b: Combinable) {
     return a+b;
 }
 ```
-Even though the function adds two numbers, we have to make sure add function works accordingly if we pass strings or numbers. Since both the parameters `a` and `b` are of type `Combinable` which is of union type of string and number, we make code works in a proper way using type works.
+Even though the function adds two numbers, we have to make sure add function works accordingly if we pass strings or numbers. Since both the parameters `a` and `b` are of type `Combinable` (which is of union type of string and number), we make sure our code works in a proper way using type works.
