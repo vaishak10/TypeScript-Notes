@@ -12,7 +12,7 @@ const obj:UserDetails = {
     details: 'unknown'
 }
 ```
-In the interface `UserDetails` we have not written down what the properties that a object will have if it is of this interface type. But what we do have is ` [prop: string]:string` which is implementation of index properties.<br>
+In the interface `UserDetails` we have not written down what properties that a object will have if it is of this interface type. But what we do have is ` [prop: string]:string` which is implementation of index properties.<br>
 `prop` here indicates the property names which are of type `string` and all these properties will have a `string` value which is denoted after `:`.
 
 > **Note**: if we have a number type property in a object, lets consider `1: 'abc@gmail.com'`.<br> Here there won't be any error as typescript translates it to string(by default object keys are string).<br>
