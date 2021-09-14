@@ -1,7 +1,7 @@
 # What are Generics
 
 Typescript provides several types to help developers with what type of data they are working on or what data they store. Generic type is similar to some of the types we have already work with, like a Array of numbers, strings or any type. <br>
-While creating a array we need to specify the type of data the array will hold. We can also do this with the `Array` type.
+While creating an array we need to specify the type of data the array will hold. We can also do this with the `Array` type.
 ```
 const names: Array = [];
 ```
@@ -31,4 +31,4 @@ const promise: Promise<string> = new Promise((resolve,reject) => {
 
 promise.then(data => console.log(data.split(' '));
 ```
-This is how generic types allow use to work with the data in a more flexible way.
+This is how generic types allow us to work with the data in a more flexible way.
