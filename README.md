@@ -54,6 +54,7 @@ TypeScript notes Maintainer repo which will include basics to advanced concepts 
  2. [Classes and Interfaces](Classes-Interfaces)
  3. [Advanced typing concepts](Advanced-typing-concepts)
  4. [Generics](Generics)
+ 5. [Decorators](Decorators)
  
 **Note**: To know more about typescript ,please do follow the [typescript documentation](https://www.typescriptlang.org/)
 
