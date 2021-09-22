@@ -67,3 +67,5 @@ When a decorator is attached to parameter of a method, then the decorator functi
     }
 ```
 Here, `tax` will be at index position `0`.
+
+>**Note**: The order of execution of decorators doesn't depend on the instansition of objects from a class, but it get's executed when a class has been defined. This holds true for decorators used with class, used with properties or accessors or parameters.
