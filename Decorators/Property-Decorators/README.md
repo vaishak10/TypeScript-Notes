@@ -32,5 +32,5 @@ function Log(target: any, propertyName: string | Symbol) {
 }
 ```
 
-When a funtion is attached as a decorator for a property, the function accepts two arguments. <br>
+When a function is attached as a decorator for a property, the function accepts two arguments. <br>
 First argument being the prototype of the object and second parameter being the property name.
