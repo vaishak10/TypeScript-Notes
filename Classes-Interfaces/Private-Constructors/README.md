@@ -1,6 +1,6 @@
 # Singletons and Private Constructors
 
-In Object oriented programming we come forward with `Singleton` pattern. So what this means in that only one instance can be created from a class. And in typescript this pattern is achieved with the use of `Private constructors`. 
+In Object oriented programming we come forward with `Singleton` pattern. So what this means is that only one instance can be created from a class. And in typescript this pattern is achieved with the use of `Private constructors`. 
 
 The basic idea here is that we make the constructor private. But then, how do we create instance from that class? This can be done using static methods. We create a static method called `getInstance` to achieve the singleton pattern.
 
