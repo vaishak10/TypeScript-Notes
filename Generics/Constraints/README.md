@@ -1,4 +1,4 @@
-# Contraints
+# Constraints
 
 Consider the below block,
 ```
